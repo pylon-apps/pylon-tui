@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[dependencies.cursive]
+version = "0.20.0"
+default-features = false
+features= ["crossterm-backend"]
